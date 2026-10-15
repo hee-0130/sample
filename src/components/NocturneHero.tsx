@@ -127,7 +127,7 @@ function Starfield() {
           ctx.moveTo(x - star.r * 4.2, y);
           ctx.lineTo(x + star.r * 4.2, y);
           ctx.moveTo(x, y - star.r * 4.2);
-          ctx.lineTo(x + star.r * 4.2);
+          ctx.lineTo(x, y + star.r * 4.2);
           ctx.stroke();
         }
 
